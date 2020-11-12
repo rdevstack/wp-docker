@@ -4,7 +4,7 @@ The Project explains the steps top create a docker image from wordpress source f
 
 1. Make a Project Directory
 ```
-mkdir Wordpress-Docker && cd Wordpress-Docker
+mkdir wp-docker && cd wp-docker
 ```
 2. Download Wordpress Source Code from Official Website
 
@@ -59,7 +59,7 @@ docker image push YOURDOCKERREPO/YOUR_IMAGE:TAG
 $ docker image push devopsdoor/mywebserver:0.0.1
 ```
 
-8. Create Database (MySQL) Container
+8. Create/pull Database (MySQL) Container
 ```
 #Pull the latest mysql & wordpress images from dockerhub
 docker pull devopsdoor/mysql:5.7
